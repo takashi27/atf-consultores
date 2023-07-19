@@ -1,0 +1,56 @@
+.tributarios {
+    margin-top: 3rem;
+    background-image: url('../../../assets/tribu.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.tributarios h1 {
+    padding-top: 7rem;
+    font-size: 3.5rem;
+}
+
+.services {
+    margin-top: 5rem;
+}
+
+.services h1 {
+    font-size: 4rem;
+    color: #155D66;
+}
+
+.card h5 {
+    font-size: 2.5rem;
+    color: #155D66;
+}
+
+.card p {
+    font-size: 1.3rem;
+}
+
+.inicio {
+    background-image: url('../../../assets/inicio.png');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+
+.inicio a {
+    color: inherit !important;
+}
+
+@media (min-width:768px) {
+    .inicio {
+        background-image: url('../../../assets/inicio.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 70vh;
+    }
+    .inicio a {
+        color: inherit !important;
+    }
+}

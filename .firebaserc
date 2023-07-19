@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "atf-consultores": {
+      "hosting": {
+        "atfconsultores": [
+          "atf-consultores"
+        ]
+      }
+    }
+  }
+}

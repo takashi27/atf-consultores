@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="color: #37ABC6 !important;">
+    <a class="navbar-brand" href="#" style="color:#37ABC6 !important;font-size: 2rem !important;">
+        <img src="../../../../assets/brand-ancho.png" width="220" height="60" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" [routerLink]="['/Home']" routerLinkActive="active">Inicio<span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Servicios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" [routerLink]="['/tributarios']" routerLinkActive="active">Tributarios</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/revisoria-fiscal']" routerLinkActive="active">Revisoría fiscal y auditoría</a>
+                    <a class="dropdown-item" href="#" [routerLink]="['/outsourcing']" routerLinkActive="active">Outsourcing contable</a>
+                </div>
+            </li>
+            <a class="nav-link" [routerLink]="['/por-que-elegirnos']" routerLinkActive="active">¿Por qué elegirnos?</a>
+            <a class="nav-link" [routerLink]="['/quienes-somos']" routerLinkActive="active">¿Quiénes Somos?</a>
+            <a class="nav-link" [routerLink]="['/contactenos']" routerLinkActive="active">Contáctenos</a>
+        </div>
+    </div>
+</nav>

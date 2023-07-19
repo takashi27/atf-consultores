@@ -1,0 +1,56 @@
+.somos {
+    margin-top: 3rem;
+    background-image: url('../../../assets/somos.png');
+    background-attachment: fixed;
+    color: white;
+    min-height: 80vh;
+}
+
+.somos h1 {
+    font-size: 3.5rem;
+}
+
+.resumen p {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    color: black;
+}
+
+.column {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.column p {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.column h1 {
+    color: #155D66;
+}
+
+.inicio {
+    background-image: url('../../../assets/inicio.png');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+
+.inicio a {
+    color: inherit !important;
+}
+
+@media (min-width:768px) {
+    .inicio {
+        background-image: url('../../../assets/inicio.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 70vh;
+    }
+    .inicio a {
+        color: inherit !important;
+    }
+}

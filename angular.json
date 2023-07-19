@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/animate.css/animate.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/wowjs/dist/wow.js",
+              "node_modules/jquery-appear-original/index.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -117,8 +121,13 @@
               "devServerTarget": "atfconsultores:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "atfconsultores"
 }
